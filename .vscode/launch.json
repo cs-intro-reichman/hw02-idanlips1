@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DamkaBoard",
+            "request": "launch",
+            "mainClass": "DamkaBoard",
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": "4"
+        },
+        {
+            "type": "java",
+            "name": "Divisors",
+            "request": "launch",
+            "mainClass": "Divisors",
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": "23"
+        },
+        {
+            "type": "java",
+            "name": "InOrder",
+            "request": "launch",
+            "mainClass": "InOrder",
+            "projectName": "hw02-idanlips1_cb7c483f"
+        },
+        {
+            "type": "java",
+            "name": "InOrderTest",
+            "request": "launch",
+            "mainClass": "InOrderTest",
+            "projectName": "hw02-idanlips1_cb7c483f"
+        },
+        {
+            "type": "java",
+            "name": "OneOfEach",
+            "request": "launch",
+            "mainClass": "OneOfEach",
+            "projectName": "hw02-idanlips1_cb7c483f"
+        },
+        {
+            "type": "java",
+            "name": "OneOfEachStats",
+            "request": "launch",
+            "mainClass": "OneOfEachStats",
+            "projectName": "hw02-idanlips1_cb7c483f"
+        },
+        {
+            "type": "java",
+            "name": "OneOfEachStats1",
+            "request": "launch",
+            "mainClass": "OneOfEachStats1",
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": "8"
+        },
+        {
+            "type": "java",
+            "name": "Perfect",
+            "request": "launch",
+            "mainClass": "Perfect",
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": "28"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": "YNWAC"
+        }
+    ]
+}
