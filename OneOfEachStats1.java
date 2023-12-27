@@ -1,12 +1,6 @@
-/**
- * Computes some statistics about families in which the parents decide
- * to have children until they have at least one child of each gender.
- * The program expects to get one command-line argument: an int value
- * that determines how many families to simulate.
- */
+
 public class OneOfEachStats1 {
 	public static void main(String[] args) {
-		//// Put your code here
 		int numOfExperiments = Integer.parseInt(args[0]);
 		double birth = Math.random();
 		int numOfBoys = 0;
@@ -37,7 +31,6 @@ public class OneOfEachStats1 {
 			} else if (numOfKids >= 4) {
 				familiesFour++;
 			}
-
 		}
 		double average = (sumOfKids / numOfExperiments);
 		int max = (int) Math.max(familiesTwo, (int) Math.max(familiesThree, familiesFour));
@@ -52,6 +45,5 @@ public class OneOfEachStats1 {
 		} else {
 			System.out.println("The most common number of children is 4 or more");
 		}
-
 	}
 }
