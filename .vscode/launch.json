@@ -52,7 +52,8 @@
             "name": "OneOfEachStats",
             "request": "launch",
             "mainClass": "OneOfEachStats",
-            "projectName": "hw02-idanlips1_cb7c483f"
+            "projectName": "hw02-idanlips1_cb7c483f",
+            "args": ["1000", "1"]
         },
         {
             "type": "java",
