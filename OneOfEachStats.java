@@ -25,7 +25,7 @@ public class OneOfEachStats {
 				} else if (birth > 0.5) {
 					numOfGirls++;
 				}
-				birth = Math.random();
+				birth = generator.nextDouble();
 				numOfKids++;
 			}
 			sumOfKids += numOfKids;
