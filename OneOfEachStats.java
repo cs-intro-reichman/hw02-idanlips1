@@ -44,11 +44,11 @@ public class OneOfEachStats {
 		System.out.println("Number of families with 3 children: " + familiesThree);
 		System.out.println("Number of families with 4 or more children: " + familiesFour);
 		if (max == familiesTwo) {
-			System.out.println("The most common number of children is 2");
+			System.out.println("The most common number of children is 2.");
 		} else if (max == familiesThree) {
-			System.out.println("The most common number of children is 3");
+			System.out.println("The most common number of children is 3.");
 		} else {
-			System.out.println("The most common number of children is 4 or more");
+			System.out.println("The most common number of children is 4 or more.");
 		}
 	}
 
