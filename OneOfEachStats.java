@@ -15,7 +15,7 @@ public class OneOfEachStats {
 		int familiesThree = 0;
 		int familiesFour = 0;
 		double sumOfKids = 0;
-		for (int i = 0; i <= T; i++) {
+		for (int i = 0; i < T; i++) {
 			numOfBoys = 0;
 			numOfGirls = 0;
 			numOfKids = 0;
