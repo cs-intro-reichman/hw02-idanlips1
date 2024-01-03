@@ -18,7 +18,7 @@ public class OneOfEachStats {
 		for (int i = 0; i < T; i++) {
 			numOfBoys = 0;
 			numOfGirls = 0;
-			numOfKids = 0;
+			numOfKids = 0; 
 			while (numOfGirls < 1 || numOfBoys < 1) {
 				if (birth < 0.5) {
 					numOfBoys++;
