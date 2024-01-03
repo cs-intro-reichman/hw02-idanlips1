@@ -22,7 +22,7 @@ public class OneOfEachStats {
 			while (numOfGirls < 1 || numOfBoys < 1) {
 				if (birth < 0.5) {
 					numOfBoys++;
-				} else if (birth > 0.5) {
+				} else {
 					numOfGirls++;
 				}
 				birth = generator.nextDouble();

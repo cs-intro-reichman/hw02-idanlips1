@@ -53,7 +53,7 @@
             "request": "launch",
             "mainClass": "OneOfEachStats",
             "projectName": "hw02-idanlips1_cb7c483f",
-            "args": ["100", "99"]
+            "args": ["10", "7"]
         },
         {
             "type": "java",
