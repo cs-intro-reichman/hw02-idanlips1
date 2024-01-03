@@ -39,7 +39,7 @@ public class OneOfEachStats {
 		}
 		double average = (sumOfKids / T);
 		int max = (int) Math.max(familiesTwo, (int) Math.max(familiesThree, familiesFour));
-		System.out.println("Average : " + average + " children to get at least one of each gender.");
+		System.out.println("Average: " + average + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + familiesTwo);
 		System.out.println("Number of families with 3 children: " + familiesThree);
 		System.out.println("Number of families with 4 or more children: " + familiesFour);
