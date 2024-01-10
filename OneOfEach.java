@@ -1,3 +1,11 @@
+/*
+#feedback
+
+1. Please pay attention that your code doesn’t handle a case where you get the value 0.5.
+could be fixed by changing one of the conditions to <= instead of <.
+*/
+
+
 
 /**
  * Simulates the formation of a family in which the parents decide
